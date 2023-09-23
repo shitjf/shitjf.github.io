@@ -1,1 +1,0 @@
-# shitjf.github.io
