@@ -1,0 +1,340 @@
+﻿/**************************
+Styles for Profile Page Project
+Author - Chisom Trisha Okoye
+Version 2.0 - Date - 05/01/2019
+***************************/
+
+/*  Global Styles   */
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'lato', sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Artifika', sans-serif;
+	font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+/* Link Styles */
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+a:hover {
+	color: #e96656;
+}
+
+li {
+	list-style: none;
+}
+
+/* Top Menu/Navigation Styles */
+.navbar {
+  min-height: 30px;
+  padding: 10px;
+  letter-spacing: 0.05em;
+  box-shadow: 0 0 30px #222;
+  margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    font-weight: 400;
+}
+
+.navbar-brand {
+  	font-family: 'Artifika', sans-serif;
+  	font-weight: 600;
+  	font-size: 1.2em;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #222;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #e96656;
+  background-color: #fff;
+  }
+
+.navbar-default a {
+  transition: all .5s;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #e96656;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #e96656;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #222;
+}
+
+/*  *********************************************************************************/
+
+/* Header Styles */
+
+#content {
+  text-align: center;
+  padding-top: 15%;
+}
+
+header {
+  background: url('../images/workspaceBb.jpg') no-repeat top center;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding: 25px 0;
+  line-height: 1.5
+}
+
+header .profile-image {
+	width: 150px;
+	margin: 50px 0;
+	border-radius: 50%;
+	border: 3px solid white;
+	transition: all .5s;
+}
+
+header .profile-image {
+	width: 150px;
+	margin: 50px 0;
+	border-radius: 50%;
+	border: 3px solid white;
+	transition: all .5s;
+}
+
+header .profile-image:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+
+.tag {
+	background-color: #efefef;
+	opacity: .85;
+	color: #111;
+	padding: 10px;
+	border-radius: 5px;
+	display: table;
+	margin: 10px auto;
+}
+
+.profile-image, .tag {
+    box-shadow: 0 0 30px #222;
+}
+
+.location {
+	background-color: #e96656;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+/* Banner Styles */
+
+.banner {
+	height: 300px;
+	background: url('../images/banner.jpg') no-repeat center bottom;
+	padding-top: 60px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.pageTitle {
+	color: #fff;
+	display: inline-block;
+  margin-top: 190px;
+  float: left;
+}
+
+/* Main Content Area Styles */
+
+.card {
+	margin: 30px;
+	padding: 20px 40px 40px;
+	border: 2px solid #ccc;
+	border-radius: 6px;
+	box-shadow: 0 0 5px #222;
+	transition: all .5s;
+	text-align: left;
+}
+
+.card:hover {
+	border-color: #e96656;
+}
+
+ul.skills {
+	padding: 5px;
+	text-align: center;
+}
+
+.skills li {
+	display: inline-block;
+	background: #e65541;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 6px;
+	margin: 2px;
+}
+
+.skills li:nth-child(even) {
+  	background: #b89c99;
+}
+
+main {
+  padding-top: 50px
+}
+
+
+/* Portfolio Page Styles */
+div.thumbnail img {
+  height: 179px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #e96656;
+    border-color: #e65541;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  color: #fff;
+  background-color: #e96656;
+  border-color: #e65541;
+  opacity: 0.5;
+}
+
+
+/* Contact Page Styles */
+#contactImage {
+	  width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 3px #ccc;
+    transition: all .5s;
+}
+
+#contactImage:hover {
+	transform: scale(0.8) rotate(360deg);
+	border-color: #e96656;
+	box-shadow: 0 0 30px #222;
+}
+
+.contactBox {
+	margin: 30px auto;
+}
+
+.card.contact{
+  text-align: center;
+}
+
+.contact a.social {
+    margin: 20px 15px 0 15px;
+}
+
+/* Footer Styles */
+
+footer {
+	width: 100%;
+	min-height: 30px;
+	padding: 20px 0 40px 0;
+  text-align: center;
+}
+
+p.copyright {
+  margin: 15px 0;
+}
+
+footer .copyright {
+	font-size: .85em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+	display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s;
+}
+
+a.xbox {
+	background-image: url('../images/xbox.svg');
+}
+
+a.instagram {
+	background-image: url('../images/instagram.svg');
+}
+
+a.github {
+	background-image: url('../images/github.svg');
+}
+
+a.social:hover {
+  opacity: 1;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Media Query for contact card on large screens */
+@media screen and (min-width: 720px) {
+
+  .flex {
+   display: flex;
+   max-width: 1200px;
+   justify-content: space-around;
+   margin: 0 auto;
+  }
+
+  .contact {
+  max-width: 705px;
+  height: 425px;
+  padding: 20px 40px 20px 40px;
+  }
+
+  .card.contact {
+	margin: 50px auto;
+	}
+
+  .contactBox {
+    padding: 53px 40px 20px 40px;
+  }
+}
